@@ -50,7 +50,7 @@ function Home2() {
               <br />
               <br />
               I love applying my skills to solve real-world problems — from
-              creating structured backend systems to building smooth,
+              creating 
               responsive frontends using
               <i>
                 <b className="purple"> React.js </b>
