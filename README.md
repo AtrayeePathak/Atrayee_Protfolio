@@ -1,76 +1,79 @@
-<h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
-</h2>
-<div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
-</div>
+# 🌐 Atrayee Pathak — Personal Portfolio
 
-<br/>
+Welcome to my personal **developer portfolio** built with **React.js** and **Bootstrap**.  
+It showcases my projects, skills, and experience as a **Computer Science (DevOps specialization)** student passionate about building interactive and efficient web applications.
 
-<center>
+---
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge)
+## ✨ Features
 
-</center>
+- 🎨 Clean and modern **UI/UX design**
+- ⚛️ Built using **React.js** and **React Bootstrap**
+- 🌈 Custom **purple theme** for a personal touch
+- 📱 Fully responsive on all devices
+- 💼 Sections for **About, Projects, Resume, and Contact**
+- 🧠 Smooth **Typewriter animation** and **Tilt effects**
+- 🖼️ Custom logo and avatar integrated
 
-<h3 align="center">
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a>
-</h3>
+---
 
-## TL;DR
+## 🛠️ Tech Stack
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
+| Category | Technologies |
+|-----------|---------------|
+| **Frontend** | React.js, Bootstrap, CSS |
+| **Animation** | Typewriter-Effect, React-Parallax-Tilt |
+| **Icons** | React-Icons |
+| **Deployment** | Vercel / GitHub Pages |
 
-## Built With
 
-My personal portfolio <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
+## 🧩 Folder Structure
 
-This project was built using these technologies.
+```
+Portfolio/
+├── src/
+│   ├── Assets/
+│   │   ├── logo.png
+│   │   └── avatar.png
+│   ├── Components/
+│   │   ├── Home/
+│   │   ├── About/
+│   │   ├── Projects/
+│   │   ├── Resume/
+│   │   └── Navbar/
+│   ├── App.js
+│   └── index.js
+└── package.json
+```
 
-- React.js
-- Node.js
-- Express.js
-- CSS3
-- VsCode
-- Vercel
+---
 
-## Features
+## 💜 About Me
 
-**📖 Multi-Page Layout**
+I’m **Atrayee Pathak**, a **B.Tech CSE (DevOps)** student passionate about
 
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
+* Web Development
+* Cloud & DevOps Technologies
+* Competitive Programming
 
-**📱 Fully Responsive**
+I enjoy learning new tools, creating efficient web apps, and collaborating on innovative ideas!
 
-## Getting Started
+---
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+## 🌍 Connect with Me
 
-## 🛠 Installation and Setup Instructions
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Atrayee_Pathak-purple?style=for-the-badge\&logo=linkedin)](https://www.linkedin.com)
+[![GitHub](https://img.shields.io/badge/GitHub-atrayeepathak-purple?style=for-the-badge\&logo=github)](https://github.com/atrayeepathak)
+[![Email](https://img.shields.io/badge/Email-atrayeepathak31@gmail.com-purple?style=for-the-badge\&logo=gmail)](mailto:atrayeepathak31@gmail.com)
 
-1. Installation: `npm install`
+---
 
-2. In the project directory, you can run: `npm start`
+⭐ *Made with passion and React by [Atrayee Pathak](https://github.com/atrayeepathak)*
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
+```
 
-## Usage Instructions
+---
 
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
+Would you like me to add a **“Live Demo”** section too (for your Vercel or Netlify link) when you deploy it?
+```
 
-### Show your support
-
-Give a ⭐ if you like this website!
-
-<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
