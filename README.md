@@ -48,7 +48,7 @@ Portfolio/
 
 ---
 
-## 💜 About Me
+## 💜 About Me(Atrayee)
 
 I’m **Atrayee Pathak**, a **B.Tech CSE (DevOps)** student passionate about
 
