@@ -3,10 +3,8 @@
   <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
 </h2>
 <div align="center">
-  <img alt="Screenshot" src="./Images/readme-img1.png" />
+  <img alt="Demo" src="./Images/readme-img1.png" />
 </div>
-
-<p align="center"><em>Note: Some projects have live demos; projects without demos will show "Demo coming soon" on the site.</em></p>
 
 <br/>
 
