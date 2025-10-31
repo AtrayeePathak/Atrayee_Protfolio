@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
+import Badge from "react-bootstrap/Badge";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 
@@ -20,18 +21,22 @@ function ProjectCards(props) {
         {"\n"}
         {"\n"}
 
-        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
-
-        {!props.isBlog && props.demoLink && (
-          <Button
-            variant="primary"
-            href={props.demoLink}
-            target="_blank"
-            style={{ marginLeft: "10px" }}
-          >
-            <CgWebsite /> &nbsp;
-            {"Demo"}
-          </Button>
+        {/* Demo button: show real link when available, otherwise show a small badge */}
+        {!props.isBlog && (
+          props.demoLink ? (
+            <Button
+              variant="primary"
+              href={props.demoLink}
+              target="_blank"
+              style={{ marginLeft: "10px" }}
+            >
+              <CgWebsite /> &nbsp; Demo
+            </Button>
+          ) : (
+            <Badge bg="secondary" style={{ marginLeft: "10px", padding: "0.6em 0.75em" }}>
+              <CgWebsite /> &nbsp; Demo coming soon
+            </Badge>
+          )
         )}
       </Card.Body>
     </Card>
