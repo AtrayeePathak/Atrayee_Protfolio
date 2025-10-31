@@ -2,12 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import medicalAI from "../../Assets/Projects/medical-ai.png";
+import smartCity from "../../Assets/Projects/smart-city.png";
+import hostelMgmt from "../../Assets/Projects/hostel.png";
+import toyfort from "../../Assets/Projects/toyfort.png";
 
 function Projects() {
   return (
@@ -21,66 +19,43 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          <Col md={6} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={medicalAI}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
+              title="Medical Image Diagnostic Aid"
+              description="Built an AI-powered diagnostic aid using YOLOv8 to analyze MRI scans for brain tumors. Integrated Ollama's Gemma3 LLM for generating patient-friendly explanations. Containerized with Docker for easy deployment. Tech: Python, YOLOv8 ML, Docker, LLM Integration"
+              ghLink="https://github.com/AtrayeePathak/medical-diagnostic-aid"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={6} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={smartCity}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="Smart City Expansion"
+              description="Implemented optimal urban transport route planning system using multiple pathfinding algorithms (Dijkstra's, A*, Bellman-Ford) in Java. Focused on efficient station placement and route optimization for smart city development. Tech: Java, Advanced Algorithms"
+              ghLink="https://github.com/AtrayeePathak/smart-city-expansion"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={6} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={hostelMgmt}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
+              title="Girls' Hostel Management System"
+              description="Developed a full-stack web application for hostel management featuring user authentication, room booking system, and administrative controls. Built with modern web technologies for efficient hostel operations. Tech: HTML, CSS, JavaScript, Node.js, MongoDB"
+              ghLink="https://github.com/AtrayeePathak/hostel-management"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={6} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={toyfort}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              
+              title="Toyfort E-commerce Platform"
+              description="Created responsive user interfaces for Toyfort e-commerce platform during internship at Austere System Limited. Improved mobile compatibility and user experience through React.js implementation. Tech: React.js, Front-end Development"
+              ghLink="https://github.com/AtrayeePathak/toyfort-frontend"
             />
           </Col>
         </Row>
