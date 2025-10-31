@@ -21,22 +21,11 @@ function ProjectCards(props) {
         {"\n"}
         {"\n"}
 
-        {/* Demo button: show real link when available, otherwise show a small badge */}
+        {/* Show Demo coming soon badge for all projects */}
         {!props.isBlog && (
-          props.demoLink ? (
-            <Button
-              variant="primary"
-              href={props.demoLink}
-              target="_blank"
-              style={{ marginLeft: "10px" }}
-            >
-              <CgWebsite /> &nbsp; Demo
-            </Button>
-          ) : (
-            <Badge bg="secondary" style={{ marginLeft: "10px", padding: "0.6em 0.75em" }}>
-              <CgWebsite /> &nbsp; Demo coming soon
-            </Badge>
-          )
+          <Badge bg="secondary" style={{ marginLeft: "10px", padding: "0.6em 0.75em" }}>
+            <CgWebsite /> &nbsp; Demo coming soon
+          </Badge>
         )}
       </Card.Body>
     </Card>
