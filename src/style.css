@@ -749,3 +749,21 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+.footer {
+  background: #0e0710; /* adjust to match your site's dark purple */
+  color: #fff;
+  padding: 14px 0;
+  border-top: 1px solid rgba(255,255,255,0.03);
+}
+
+.footer a {
+  color: #fff;
+  opacity: 0.9;
+  transition: opacity .15s ease;
+}
+
+.footer a:hover {
+  opacity: 1;
+  text-decoration: none;
+}

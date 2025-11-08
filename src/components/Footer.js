@@ -1,3 +1,4 @@
+// src/components/Footer.js
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
@@ -8,63 +9,64 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
-  let date = new Date();
-  let year = date.getFullYear();
   return (
-    <Container fluid className="footer">
-      <Row>
-        <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Soumyajit Behera</h3>
-        </Col>
-        <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} SB</h3>
-        </Col>
-        <Col md="4" className="footer-body">
-          <ul className="footer-icons">
-            <li className="social-icons">
+    <footer className="footer">
+      <Container>
+        <Row className="align-items-center">
+          <Col md={6} className="text-left">
+            <p style={{ margin: 0 }}>
+              Designed and Developed by <strong>Atrayee Pathak</strong>
+            </p>
+          </Col>
+
+          <Col md={6} className="text-right">
+            <p style={{ margin: 0 }}>
+              Copyright © {new Date().getFullYear()} <strong>AP</strong>
+            </p>
+            <div style={{ marginTop: 6 }}>
               <a
-                href="https://github.com/soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
+                href="https://github.com/atrayeepathak"
+                target="_blank"
+                rel="noreferrer"
+                style={{ marginRight: 12 }}
+                aria-label="GitHub"
               >
-                <AiFillGithub />
+                <AiFillGithub size={20} />
               </a>
-            </li>
-            <li className="social-icons">
+
               <a
-                href="https://twitter.com/Soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
+                href="https://twitter.com/" /* replace with your Twitter */
+                target="_blank"
+                rel="noreferrer"
+                style={{ marginRight: 12 }}
+                aria-label="Twitter"
               >
-                <AiOutlineTwitter />
+                <AiOutlineTwitter size={20} />
               </a>
-            </li>
-            <li className="social-icons">
+
               <a
-                href="https://www.linkedin.com/in/soumyajit4419/"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
+                href="https://www.linkedin.com/in/atrayee-pathak-4771a7312/"
+                target="_blank"
+                rel="noreferrer"
+                style={{ marginRight: 12 }}
+                aria-label="LinkedIn"
               >
-                <FaLinkedinIn />
+                <FaLinkedinIn size={20} />
               </a>
-            </li>
-            <li className="social-icons">
+
               <a
-                href="https://www.instagram.com/soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
+                href="https://www.instagram.com/" /* replace with your Instagram */
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Instagram"
               >
-                <AiFillInstagram />
+                <AiFillInstagram size={20} />
               </a>
-            </li>
-          </ul>
-        </Col>
-      </Row>
-    </Container>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+    </footer>
   );
 }
 
